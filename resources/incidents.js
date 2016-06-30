@@ -48,19 +48,23 @@ router
         ));
 
         newIncident.save((err) => {
-            if (err) {
-              res.status(400).send(err).end();
-            }
-            else {
-              Incident.findById(_id, (err, data) => {
-                if (err) {
-                  res.send(400).send(err).end();
-                }
-                else {
-                  res.status(201).type('json').json(data).end();
-                }
-              });
-            }
+          if (err) {
+            res.status(400).send(err).end()
+          }
+          else {
+            Incident.find({ _id })
+            .populate('category')
+            .populate('cleaner')
+            .lean()
+            .exec((err, incident) => {
+              if (err) {
+                res.status(400).send(err).end()
+              }
+              else {
+                res.status(201).json(incident[0]).end();
+              }
+            });
+          }
         });
     }
     else {
