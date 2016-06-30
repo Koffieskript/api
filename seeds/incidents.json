@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "d003af2f-e014-4999-a36f-74dd6dd3d3d9",
+    "category": "e636ed9b-dd81-4005-b0cc-02603ae38ff3",
+    "location": "1e verdieping, pl1.45",
+    "reportedAt": "2016-06-26T19:15:55.158Z"
+  },
+  {
+    "_id": "66868e27-a4f6-4d31-93f2-edf96baee188",
+    "category": "6a7a5c96-f329-4e90-8f81-25e60ca15500",
+    "location": "6e verdieping, pl6.13",
+    "cleaner": "1a0a6f67-a594-4e3d-8d58-c253f2c0351d",
+    "subscribedAt": "2016-06-26T19:56:31.158Z",
+    "reportedAt": "2016-06-26T19:52:55.158Z"
+  },
+  {
+    "_id": "567af922-420c-4e0e-881a-651d23d29e9e",
+    "category": "eb3d0e6c-ff35-4bbd-9d93-05bcc9161194",
+    "location": "Begane grond, pl0.01",
+    "cleaner": "00c7104e-2666-4b67-ad08-fdadb0c1e70b",
+    "subscribedAt": "2016-06-26T19:32:58.158Z",
+    "reportedAt": "2016-06-26T19:30:55.158Z"
+  }
+]

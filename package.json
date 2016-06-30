@@ -1,0 +1,27 @@
+{
+  "name": "koffieskript-api",
+  "version": "1.0.0",
+  "description": "The API for koffieskript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koffieskript/api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koffieskript/api/issues"
+  },
+  "homepage": "https://github.com/Koffieskript/api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.20",
+    "node-uuid": "^1.4.7",
+    "object-assign": "^4.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "e636ed9b-dd81-4005-b0cc-02603ae38ff3",
+    "title": "Koffie gemorst",
+    "icon": "free_breakfast"
+  },
+  {
+    "_id": "6a7a5c96-f329-4e90-8f81-25e60ca15500",
+    "title": "Eten gemorst",
+    "icon": "local_dining"
+  },
+  {
+    "_id": "eb3d0e6c-ff35-4bbd-9d93-05bcc9161194",
+    "title": "Volle afvalbak",
+    "icon": "delete"
+  }
+]
